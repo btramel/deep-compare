@@ -1,0 +1,1 @@
+<img src='img/deep-compare.gif'>
