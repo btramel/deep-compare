@@ -36,13 +36,13 @@ p {
 }
 
 @media screen and (min-width:960px) {
-    /* [data-hubble] {
+    [data-hubble] {
         content: url('img/hubble/deep_field_2800.jpg');
     }
 
     [data-webb] {
         content: url('img/webb/deep_field_2800\(2\).jpg');
-    } */
+    }
 
     .head {
         opacity: .75;
