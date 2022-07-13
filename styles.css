@@ -35,16 +35,6 @@ p {
     font-size: .5rem;
 }
 
-.juxtapose {
-    display: flex;
-    flex-direction: column;
-    place-items: center;  
-}
-
-.juxtapose img {
-
-}
-
 @media screen and (min-width:960px) {
     /* [data-hubble] {
         content: url('img/hubble/deep_field_2800.jpg');
