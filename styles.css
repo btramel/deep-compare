@@ -11,7 +11,7 @@ body {
     place-items: center;
     text-align: center;
     position: relative;
-    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 .head {
@@ -36,20 +36,23 @@ p {
 }
 
 .juxtapose {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;  
+}
+
+.juxtapose img {
+
 }
 
 @media screen and (min-width:960px) {
-    [data-hubble] {
+    /* [data-hubble] {
         content: url('img/hubble/deep_field_2800.jpg');
     }
 
     [data-webb] {
         content: url('img/webb/deep_field_2800\(2\).jpg');
-    }
+    } */
 
     .head {
         opacity: .75;

@@ -1,9 +1,3 @@
-const hubble = document.querySelector('[data-hubble]')
-const webb = document.querySelector('[data-webb]')
-
-
-
-
 // // instantiate new juxtapose slider
 // const slider = new juxtapose.JXSlider('#juxtapose-wrapper',
 //     [
