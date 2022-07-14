@@ -1,58 +1,58 @@
 body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(30, 30, 38);
-    color:rgb(183, 183, 205);
-    font-size: 1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
-    place-items: center;
-    text-align: center;
-    position: relative;
-    overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(30, 30, 38);
+  color: rgb(183, 183, 205);
+  font-size: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .head {
-    position: absolute;
-    top: 1rem;
-    right: -50%;
-    left: -50%;
-    z-index: 10;
-    opacity: .25;
+  position: absolute;
+  top: 1rem;
+  right: -50%;
+  left: -50%;
+  z-index: 10;
+  opacity: 0.25;
 }
 
 .head:hover {
-    opacity: .05;
+  opacity: 0.05;
 }
 
 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 p {
-    font-size: .5rem;
+  font-size: 0.5rem;
 }
 
-@media screen and (min-width:960px) {
-    [data-hubble] {
-        content: url('img/hubble/deep_field_2800.jpg');
-    }
+@media screen and (min-width: 960px) {
+  [data-hubble] {
+    content: url('img/hubble/deep_field_2800.jpg');
+  }
 
-    [data-webb] {
-        content: url('img/webb/deep_field_2800\(2\).jpg');
-    }
+  [data-webb] {
+    content: url('img/webb/deep_field_2800\(2\).jpg');
+  }
 
-    .head {
-        opacity: .75;
-    }
+  .head {
+    opacity: 0.75;
+  }
 
-    h1 {
-        font-size: 3rem;
-    }
-    
-    p {
-        font-size: .9rem;
-    }
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
 }
